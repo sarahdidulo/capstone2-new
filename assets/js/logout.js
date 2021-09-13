@@ -2,4 +2,4 @@ localStorage.clear();
 
 cartCount.innerHTML = "";
 
-window.location.replace("/home.html");
+window.location.replace("/index.html");
