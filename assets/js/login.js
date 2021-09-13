@@ -47,7 +47,7 @@ logUser.addEventListener("submit", (e) => {
 
 					localStorage.setItem("id", result._id);
 					localStorage.setItem("isAdmin", result.isAdmin);
-					window.location.replace("./home.html");
+					window.location.replace("./index.html");
 					
 				})
 			}
