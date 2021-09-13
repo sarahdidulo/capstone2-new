@@ -1,0 +1,347 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing:  border-box;
+	scroll-behavior: smooth;
+	/*font-family: 'Montserrat', sans-serif;*/
+	font-family: 'Urbanist', sans-serif;
+	/*background-color: #ffd7ba;*/
+	/*background-color: pink;*/
+	letter-spacing: 0.5px;
+}
+
+.container-fluid{
+	background-color: #faf9f9;
+	padding: 0;
+	margin: 0;
+}
+
+.loginPage{
+	background: url("./../images/loginPage.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 90vh;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	position: relative;
+	/*background-color: blue;*/
+}
+
+.homePage{
+	background: url("./../images/loginPage.jpg");
+	background-size: cover;
+	background-position: left center;
+	min-height: 70vh;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	position: relative;
+
+	/*background-color: blue;*/
+}
+
+.homePage .coffee h1{
+	color: white;
+	text-shadow: 5px 5px 4px black;
+}
+
+.homePage .coffee p{
+	color: white;
+	/*text-shadow: 5px 5px 4px black;*/
+}
+
+.about p{
+	line-height: 3;
+}
+
+.landingPage{
+	background: url("./../images/loginPage.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 70vh;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	position: relative;
+	/*background-color: blue;*/
+}
+
+.landingPage .coffee h1{
+	color: white;
+	text-shadow: 5px 5px 4px black;
+	/*margin-top: 100px;*/
+}
+
+.productPage{
+	background: url("./../images/product_image.jpg");
+	background-size: cover;
+	background-position: center;
+	max-height: 60vh;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	position: relative;
+}
+
+.productPage .coffee h1{
+	color: white;
+	text-shadow: 5px 5px 4px black;
+	margin-top: 100px;
+}
+
+.productPage .coffee p{
+	color: white;
+	text-shadow: 5px 3px 4px black;
+
+}
+
+.profilePage2{
+	background: url("./../images/profile_image.jpg");
+	background-size: cover;
+	background-position: center;
+	max-height: 80vh;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	position: relative;
+	/*background-color: blue;*/
+}
+
+.profilePage2 .coffee h1{
+	color: white;
+	text-shadow: 5px 5px 4px black;
+	margin-top: 100px;
+}
+
+.profilePage2 .coffee p{
+	color: white;
+	text-shadow: 5px 3px 4px black;
+
+}
+
+
+.row{
+	max-width: 100%;
+	margin: 0;
+}
+
+.firstPage{
+	margin: 0;
+	padding: 0;
+}
+
+.fillForm, .registerFillForm{
+	/*margin-top: 50px;*/
+	padding: 40px 0px 0px 0px;
+	/*margin-top: 50px;*/
+	margin-bottom: 100px;
+}
+
+#fillUserData{
+	color: white;
+	/*margin-top: 100px;*/
+	/*padding-top: 50px;*/
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: rgb(156, 156, 156, 0.5);
+	margin: 0;
+	width: 85%;
+}
+
+#fillUserData a{
+	text-decoration: none;
+	color: white;
+
+}
+#fillUserData a:hover{
+	text-decoration: none;
+	color: rgb(49, 49, 58);
+}
+
+#fillUserData .btn{
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.coffee{
+	padding: 5px 30px;
+}
+.coffee h1{
+	font-family: 'Special Elite', cursive;
+	color: white;
+	font-size: 50px;
+	margin-top: 150px;
+	margin-bottom: 0;
+	/*width: 100vw;*/
+}
+
+.coffee p{
+	color:  white;
+	font-size: 25px;
+	/*font-family: 'Dancing Script', cursive;*/
+	color: lightgray;
+}
+
+.coffee h2{
+	color: white;
+}
+
+#scrollnav{
+	height: auto;
+	background-color: black;
+	box-shadow: 0px 8px 8px rgb(12, 12, 14, 0.4);
+	font-size: 14px;
+}
+
+.navbar-nav a{
+	text-decoration: none;
+	color: gray;
+	margin-top: 10px;
+}
+
+/*.navbar-nav{
+
+}*/
+
+.footer-row{
+	width: 100vw;
+}
+
+.productList{
+	/*background-color: #f0efeb*/
+	width: 100%;
+	padding: 3%;
+}
+
+.productList .btn{
+	width: 100%;
+	margin-top: 10px;
+}
+
+.productList img{
+	/*background-position: center;*/
+	height: 400px;
+}
+
+
+#addProdForm, #editProdForm, #addToCartForm{
+	width: 100%;
+	padding: 10%;
+}
+
+#addToCartForm input{
+	width: 300px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+#addToCartForm img{
+	width: 300px;
+	height: 400px;
+
+}
+
+#addToCartForm .btn{
+	width: 300px;
+
+}
+
+.cart .btn{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 30%;
+}
+
+.products .card{
+	background-color: rgb(26, 26, 26);
+	color: white;
+}
+
+.profilePage .orderId{
+	margin-top: 50px;
+}
+
+
+.profilePage h2{
+	margin-top: 50px;
+}
+
+/*.userList .table{
+	width: 300px;
+}*/
+
+footer{
+	margin-top: 140px;
+	/*top: 90%;*/
+	background-color: black;
+	color: white;
+	height: 80px;
+	padding: 0;
+	top: 80%;
+	width: 100%;
+
+
+}
+
+
+@media (min-width: 768px){
+	.coffee{
+		margin-top: 0px;
+		padding-top: 0px;
+		padding-bottom: 80px;
+	}
+	
+
+	.fillForm{
+		margin-top: 50px;
+		margin-bottom: 100px;
+		padding: 140px 0px 0px 0px;
+	}
+
+	.registerFillForm{
+		margin-top: 50px;
+		margin-bottom: 100px;
+		padding: 80px 0px 0px 0px;
+	}
+
+	#fillUserData{
+		width: 70%;
+	}
+
+	footer{
+		margin-top: 123px;
+	}
+}
+
+@media (min-width: 992px){
+	.coffee{
+		padding-top: 80px;
+		/*padding-bottom: 50px;*/
+	}
+
+	.coffee h1{
+		font-size: 100px;
+		letter-spacing: 3px
+		/*width: 100v	*/
+	}
+
+	#scrollnav{
+		height: 80px;
+	}
+
+	footer{
+		/*position: absolute;
+		bottom: 0,*/
+		/*margin-top: 140px;*/
+		
+	}
+
+}
