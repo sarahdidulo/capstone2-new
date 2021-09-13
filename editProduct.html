@@ -30,7 +30,7 @@
 <body>
 	<!--  -->
 	<div class = "container-fluid">
-		<div class = "productPage">
+		<div class = "landingPage">
 			<div class="row">
 				<div class="col-12 col-md-12 col-lg-12">
 					<nav id="scrollnav" class="navbar d-flex navbar-expand-lg navbar-dark fixed-top">
@@ -60,19 +60,33 @@
 			</div>
 
 		</div>
-		
-			<div class = "row text-center">
-				<div class = "col-12 mt-5 text-center">
-					<h2>Products</h2>
-					<div class = "addProduct"></div>
+		<div class = "row">
+			<div class = "col-12">
+				<h1 class = "text-center pt-5">Edit Product</h1>
+				<div class = "d-flex justify-content-center">
+					<form id = "editProdForm" class = "py-5">		  
+					  <div class="form-group">
+					    <label for="name">Name:</label>
+					    <input type="text" class="form-control" id="name" required>
+					  </div>
+					  <div class="form-group">
+					    <label for="description">Description:</label>
+					    <input type="text" class="form-control" id="description" required>
+					  </div>	
+					  <div class="form-group">
+					    <label for="Price">Price:</label>
+					    <input type="number" class="form-control" id="price" required>
+					  </div>
+					  <div class="form-group">
+					    <label for="image">Image URL:</label>
+					    <input type="text" class="form-control" id="image" required>
+					  </div>
+					  <button type="submit" class="btn btn-outline-dark mb-2">Submit</button>
+					</form>
 				</div>
 			</div>
+		</div>
 
-			<div class = "row productList">
-				<div class = "col-12 col-md-12 d-flex flex-wrap justify-content-around products">
-					
-				</div>
-			</div>
 		
 
 		
@@ -92,7 +106,7 @@
 
     <!-- external global js -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src = "./../assets/js/script.js"></script>
-    <script src = "./../assets/js/products.js"></script>
+    <script src = "./assets/js/script.js"></script>
+    <script src = "./assets/js/editProduct.js"></script>
 </body>
 </html>

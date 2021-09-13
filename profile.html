@@ -30,63 +30,40 @@
 <body>
 	<!--  -->
 	<div class = "container-fluid">
-		<div class = "landingPage">
-			<div class="row">
-				<div class="col-12 col-md-12 col-lg-12">
-					<nav id="scrollnav" class="navbar d-flex navbar-expand-lg navbar-dark fixed-top">
-					<!--   <a class="navbar-brand" href="#">Navbar</a>  -->
-					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					    <span class="navbar-toggler-icon"></span>
-					  </button>
-					  <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNavAltMarkup">
-					    <div class="navbar-nav">
-					      <a class="nav-link text-sm-left" href="./home.html">Home <span class="sr-only">(current)</span></a>
-					      <a class="nav-link text-sm-left" href="./products.html">Products</a> 
-					      <span id = "navLinkSession"></span>
-					    </div>
-					  </div>
-					</nav>
+		<div class="row">
+			<div class="col-12 col-md-12 col-lg-12">
+				<nav id="scrollnav" class="navbar d-flex navbar-expand-lg navbar-dark fixed-top">
+				<!--   <a class="navbar-brand" href="#">Navbar</a>  -->
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNavAltMarkup">
+				    <div class="navbar-nav">
+				      <a class="nav-link text-sm-left" href="./home.html">Home <span class="sr-only">(current)</span></a>
+				      <a class="nav-link text-sm-left" href="./products.html">Products</a> 
+				      <span id = "navLinkSession"></span>
+				    </div>
+				  </div>
+				</nav>
 
-				</div>
-			</div> <!-- end of row for nav -->
-
-			<div class = "row">
-				<div class = "col-12 col-md-12 text-center coffee">
-					<h1>Coffee Keepers</h1>
-					<p>Brewing you the most promising coffee.</p>
-					
-				</div>
-				
 			</div>
+		</div> <!-- end of row for nav -->
 
+		<div class = "row profilePage2">
+			<div class = "col-12 col-md-12 text-center coffee">
+				<h1>Coffee Keepers</h1>
+				<p>Brewing you the most promising coffee.</p>
+			</div>
+			
 		</div>
-		
-			<div class = "row text-center">
-				<div class = "col-12 mt-5 text-center">
-					<h2>User Master List</h2>
-					
-				</div>
-			</div>
 
-			<div class = "row">
-				<div class = "col-12 col-md-8 offset-md-2 d-flex flex-wrap justify-content-around userList text-center">
-					<table class = "table table-responsive userTable mt-4 table-striped table-dark">
-						<thead>
-							<tr>
-								<th scope = "col">User ID</th>
-								<th scope = "col">First Name</th>
-								<th scope = "col">Last Name</th>
-								<th scope = "col">Email</th>
-								<th scope = "col">Admin Status</th>
-								<th scope = "col">Change Admin Status</th>
-							</tr>
-						</thead>
-					</table>
-				</div>
+		<div class = "row">
+			<div class = "col-12 col-md-8 offset-md-2 profilePage">
+				<h1></h1>
+				<h2>Your Details:</h2>
 			</div>
-		
+		</div>
 
-		
 		<footer>
 			<div class = "row">
 				<div class="col-12 col-md-12 col-lg-12 p-0 text-center d-flex justify-content-center">
@@ -103,7 +80,7 @@
 
     <!-- external global js -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src = "./../assets/js/script.js"></script>
-    <script src = "./../assets/js/allUsers.js"></script>
+    <script src = "./assets/js/script.js"></script>
+    <script src = "./assets/js/profile.js"></script>
 </body>
 </html>

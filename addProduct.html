@@ -29,34 +29,67 @@
 </head>
 <body>
 	<!--  -->
-	<div class = "container-fluid loginPage">
-		<div class="row">
-			<div class="col-12 col-md-12 col-lg-12">
-				<nav id="scrollnav" class="navbar d-flex navbar-expand-lg navbar-dark fixed-top">
-				<!--   <a class="navbar-brand" href="#">Navbar</a>  -->
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				  </button>
-				  <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNavAltMarkup">
-				    <div class="navbar-nav">
-				      <a class="nav-link text-sm-left" href="./home.html">Home <span class="sr-only">(current)</span></a>
-				      <a class="nav-link text-sm-left" href="./products.html">Products</a> 
-				      <span id = "navLinkSession"></span>
-				    </div>
-				  </div>
-				</nav>
+	<div class = "container-fluid">
+		<div class = "landingPage">
+			<div class="row">
+				<div class="col-12 col-md-12 col-lg-12">
+					<nav id="scrollnav" class="navbar d-flex navbar-expand-lg navbar-dark fixed-top">
+					<!--   <a class="navbar-brand" href="#">Navbar</a>  -->
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse justify-content-lg-end" id="navbarNavAltMarkup">
+					    <div class="navbar-nav">
+					      <a class="nav-link text-sm-left" href="./home.html">Home <span class="sr-only">(current)</span></a>
+					      <a class="nav-link text-sm-left" href="./products.html">Products</a> 
+					      <span id = "navLinkSession"></span>
+					    </div>
+					  </div>
+					</nav>
 
+				</div>
+			</div> <!-- end of row for nav -->
+
+			<div class = "row">
+				<div class = "col-12 col-md-12 text-center coffee">
+					<h1>Coffee Keepers</h1>
+					<p>Brewing you the most promising coffee.</p>
+					
+				</div>
+				
 			</div>
-		</div> <!-- end of row for nav -->
 
+		</div>
 		<div class = "row">
-			<div class = "col-12 col-md-12 text-center coffee">
-				<h1>Coffee Keepers</h1>
-				<p>Brewing you the most promising coffee.</p>
+			<div class = "col-12">
+				<h1 class = "text-center pt-5">Add a Product</h1>
+				<div class = "d-flex justify-content-center">
+					<form id = "addProdForm" class = "py-5">		  
+					  <div class="form-group">
+					    <label for="name">Name:</label>
+					    <input type="text" class="form-control" id="name" required>
+					  </div>
+					  <div class="form-group">
+					    <label for="description">Description:</label>
+					    <input type="text" class="form-control" id="description" required>
+					  </div>	
+					  <div class="form-group">
+					    <label for="Price">Price:</label>
+					    <input type="number" class="form-control" id="price" required>
+					  </div>
+					  <div class="form-group">
+					    <label for="image">Image URL:</label>
+					    <input type="text" class="form-control" id="image" required>
+					  </div>
+					  <button type="submit" class="btn btn-outline-dark mb-2">Submit</button>
+					</form>
+				</div>
 			</div>
-			
 		</div>
 
+		
+
+		
 		<footer>
 			<div class = "row">
 				<div class="col-12 col-md-12 col-lg-12 p-0 text-center d-flex justify-content-center">
@@ -73,7 +106,8 @@
 
     <!-- external global js -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src = "./../assets/js/script.js"></script>
-    <script src = "./../assets/js/unarchiveProduct.js"></script>
+    <script src = "./assets/js/script.js"></script>
+    <script src = "./assets/js/addProduct.js"></script>
+
 </body>
 </html>
